@@ -1,7 +1,7 @@
 class Mensagem {
 
     constructor(texto = '') {
-        this.texto = texto;
+        this._texto = texto;
     }
 
     get texto() {
@@ -14,5 +14,3 @@ class Mensagem {
         this._texto = texto;
     }
 }
-
-let mensagem = new Mensagem('Flávio almeida');
